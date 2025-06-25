@@ -84,3 +84,25 @@ CALCULATE (
 //   - Fokussiere dich auf den Wert
 //   - Halte es einfach und praktisch
 // ---------------------------------------------------------------------
+
+Kapazitätstage_je_Story = 
+DIVIDE ( [Kapazitätsstunden_je_Story], 9 ) 
+// ---------------------------------------------------------------------
+// Dokumentation
+// Measure:    Kapazitätstage_je_Story
+// Typ:        Measure
+// Tabelle:    Measure
+// Projekt:    IT32_Kapa_1.0.0
+// Autor:      Doniman Francisco Peña Parra
+// Erstellt:   25.06.2025
+// Zweck:      Umrechnung der realen Kapazitätsstunden in Arbeitstage (à 9h)
+// Beschreibung:
+//   - Wandelt die berechneten Stunden in eine Tagesgröße um
+//   - Dient der Visualisierung und Steuerung auf Tagesebene
+// Datenschutz:
+//   - Keine personenbezogenen Inhalte
+// ITIL 4 - Prinzipien:
+//   - Denk und arbeite ganzheitlich
+//   - Optimiere und automatisiere
+// ---------------------------------------------------------------------
+
