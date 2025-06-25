@@ -3,7 +3,6 @@ DIVIDE (
     SUM ( fact_UserStory[Fibonacci]),
     [Netto_Kapazitätstage]
 )
-
 // ---------------------------------------------------------------------
 // Dokumentation
 // Measure:    StoryPoints_pro_Kapazitätstag
@@ -54,6 +53,7 @@ DIVIDE ( SP_Summe, Referenz_SP_pro_Tag )
 //   - Optimiere und automatisiere
 // ---------------------------------------------------------------------
 
+
 Kapazitätsstunden_je_Story = 
 CALCULATE (
     COUNTROWS ( dim_Zeit ),
@@ -90,7 +90,6 @@ CALCULATE (
 
 Kapazitätstage_je_Story = 
 DIVIDE ( [Kapazitätsstunden_je_Story], 9 ) 
-
 // ---------------------------------------------------------------------
 // Dokumentation
 // Measure:    Kapazitätstage_je_Story
@@ -124,7 +123,6 @@ CALCULATE (
     dim_Zeit[Stunde] >= 8,
     dim_Zeit[Stunde] < 17
 )
-
 // ---------------------------------------------------------------------
 // Dokumentation
 // Measure:    Netto_Kapazitätsstunden
