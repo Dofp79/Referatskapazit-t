@@ -53,3 +53,38 @@ DIVIDE ( SP_Summe, Referenz_SP_pro_Tag )
 //   - Fokussiere dich auf den Wert
 //   - Optimiere und automatisiere
 // ---------------------------------------------------------------------
+
+Kapazitätsstunden_je_Story = 
+CALCULATE (
+    COUNTROWS ( dim_Zeit ),
+    FILTER (
+        dim_Zeit,
+        dim_Zeit[Zeitstempel] >= SELECTEDVALUE(fact_UserStory[Anfang])
+        && dim_Zeit[Zeitstempel] <= SELECTEDVALUE(fact_UserStory[Erledigt])
+        && dim_Zeit[IstArbeitstag] = TRUE
+        && dim_Zeit[Stunde] >= 8
+        && dim_Zeit[Stunde] < 17
+    )
+)
+// ---------------------------------------------------------------------
+// Dokumentation
+// Measure:    Kapazitätsstunden_je_Story
+// Typ:        Measure
+// Tabelle:    Measure
+// Projekt:    IT32_Kapa_1.0.0
+// Autor:      Doniman Francisco Peña Parra
+// Erstellt:   25.06.2025
+// Zweck:      Ermittlung der realen Dauer (Kapazitätsstunden) je User Story
+// Beschreibung:
+//   - Berechnet netto die benötigte Zeit zwischen Anfang und Erledigt
+//   - Berücksichtigt nur Werktage (Mo–Fr), 08:00–17:00
+//   - Liefert die tatsächliche Kapazitätsbeanspruchung pro Vorgang
+// Datenschutz:
+//   - Keine personenbezogenen Spalten oder Auswertungen
+// ITIL 4 - Prinzipien:
+//   - Beginne dort, wo du stehst
+//   - Fokussiere dich auf den Wert
+//   - Halte es einfach und praktisch
+// ---------------------------------------------------------------------
+
+
