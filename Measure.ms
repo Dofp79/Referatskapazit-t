@@ -8,7 +8,7 @@ DIVIDE (
 // Measure:    StoryPoints_pro_Kapazitätstag
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Verhältnis von erledigten Story Points zu eingesetzten Kapazitätstagen
@@ -35,7 +35,7 @@ DIVIDE ( SP_Summe, Referenz_SP_pro_Tag )
 // Measure:    Geplanter_Kapazitätsbedarf_Tage
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Ermittlung des Kapazitätsbedarfs auf Basis geschätzter Fibonacci-Punkte
@@ -69,7 +69,7 @@ CALCULATE (
 // Measure:    Kapazitätsstunden_je_Story
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Ermittlung der realen Dauer (Kapazitätsstunden) je User Story
@@ -92,7 +92,7 @@ DIVIDE ( [Kapazitätsstunden_je_Story], 9 )
 // Measure:    Kapazitätstage_je_Story
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Umrechnung der realen Kapazitätsstunden in Arbeitstage (à 9h)
@@ -124,7 +124,7 @@ CALCULATE (
 // Measure:    Netto_Kapazitätsstunden
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Berechnung der Netto-Kapazitätsstunden zwischen Anfang und Erledigt
@@ -152,7 +152,7 @@ DIVIDE ( [Netto_Kapazitätsstunden], 9 )
 // Measure:    Netto_Kapazitätstage
 // Typ:        Measure
 // Tabelle:    Measure
-// Projekt:    IT32_Kapa_1.0.0
+// Projekt:    Kapa_1.0.0
 // Autor:      Doniman Francisco Peña Parra
 // Erstellt:   25.06.2025
 // Zweck:      Berechnung verfügbarer Kapazitätstage im Betrachtungszeitraum
