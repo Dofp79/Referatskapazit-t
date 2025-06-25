@@ -111,3 +111,44 @@ DIVIDE ( [Kapazitätsstunden_je_Story], 9 )
 // ---------------------------------------------------------------------
 
 
+Netto_Kapazitätsstunden = 
+VAR Startzeit = MIN ( fact_UserStory[Anfang] )
+VAR Endzeit   = MAX ( fact_UserStory[Erledigt] )
+
+RETURN
+CALCULATE (
+    COUNTROWS ( dim_Zeit ),
+    dim_Zeit[Zeitstempel] >= Startzeit,
+    dim_Zeit[Zeitstempel] <= Endzeit,
+    dim_Zeit[IstArbeitstag] = TRUE,
+    dim_Zeit[Stunde] >= 8,
+    dim_Zeit[Stunde] < 17
+)
+
+// ---------------------------------------------------------------------
+// Dokumentation
+// Measure:    Netto_Kapazitätsstunden
+// Typ:        Measure
+// Tabelle:    Measure
+// Projekt:    IT32_Kapa_1.0.0
+// Autor:      Doniman Francisco Peña Parra
+// Erstellt:   25.06.2025
+// Zweck:      Berechnung der Netto-Kapazitätsstunden zwischen Anfang und Erledigt
+// Beschreibung:
+//   - Zählt verfügbare Kapazitätsstunden im Zeitraum (werktags, 08:00–17:00)
+//   - Nutzt zwei aktive Beziehungen:
+//       -> fact_UserStory[Anfang] -> dim_Zeit[Zeitstempel]
+//       -> fact_UserStory[Erledigt] -> dim_Zeit_Ende[Zeitstempel]
+//   - Nutzt dim_Zeit-Tabellen mit stündlicher Granularität
+//   - Kein Bezug zu konkreten Personen – vollständig anonymisiert
+// Datenschutz:
+//   - DSGVO-konform und vom Personalrat freigabefähig
+//   - Keine personenbezogenen Daten oder Rückschlüsse möglich
+//   - Analyse erfolgt ausschließlich auf Team- und Objektebene
+// ITIL 4 - Prinzipien:
+//   - Fokussiere dich auf den Wert
+//   - Denk und arbeite ganzheitlich
+//   - Halte es einfach und praktisch
+// ---------------------------------------------------------------------
+
+
