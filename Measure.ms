@@ -144,3 +144,27 @@ CALCULATE (
 //   - Denk und arbeite ganzheitlich
 //   - Halte es einfach und praktisch
 // ---------------------------------------------------------------------
+
+Netto_Kapazitätstage = 
+DIVIDE ( [Netto_Kapazitätsstunden], 9 )
+// ---------------------------------------------------------------------
+// Dokumentation
+// Measure:    Netto_Kapazitätstage
+// Typ:        Measure
+// Tabelle:    Measure
+// Projekt:    IT32_Kapa_1.0.0
+// Autor:      Doniman Francisco Peña Parra
+// Erstellt:   25.06.2025
+// Zweck:      Berechnung verfügbarer Kapazitätstage im Betrachtungszeitraum
+// Beschreibung:
+//   - Wandelt die Netto-Kapazitätsstunden in standardisierte Tage um (à 9h)
+//   - Kein Personenbezug, keine Leistungsverfolgung
+//   - Analyse auf Teamebene möglich (z. B. Sprint, Bereich)
+// Datenschutz:
+//   - Keine personenbezogenen Spalten oder Filter
+//   - Vollständig DSGVO- und mitbestimmungskonform
+// ITIL 4 - Prinzipien:
+//   - Halte es einfach und praktisch
+//   - Fokussiere dich auf den Wert
+//   - Optimiere und automatisiere
+// ---------------------------------------------------------------------
