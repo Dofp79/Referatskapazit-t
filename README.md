@@ -7,7 +7,7 @@ Dieses Repository beinhaltet ein vollständig dokumentiertes Set von **Power BI 
 
 ##  Ziel des Projekts
 
-✔️ Messung der Relation zwischen Story Points und Kapazität  
+✔️ Messung der Relation zwischen Story Points und Kapazität   
 ✔️ Berechnung realer Arbeitstage & Stunden je User Story  
 ✔️ Berücksichtigung von Zeitstempeln, Arbeitszeiten und Feiertagen  
 ✔️ DSGVO-konform und teamorientiert – kein Personenbezug
