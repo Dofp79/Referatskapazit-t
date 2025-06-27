@@ -32,7 +32,7 @@ Alle Measures sind ausführlich dokumentiert (Autor, Zweck, ITIL-Bezug, Datensch
 
 ---
 
-## 🧩 Architektur und Methodik
+##  Architektur und Methodik
 
 - Modell basiert auf den Tabellen:
   - `fact_UserStory` mit Spalten wie `Fibonacci`, `Anfang`, `Erledigt`
@@ -49,12 +49,11 @@ Alle Measures sind ausführlich dokumentiert (Autor, Zweck, ITIL-Bezug, Datensch
 ✔️ Keine personenbezogenen Daten  
 ✔️ Mitbestimmungskonform & anonym  
 ✔️ Orientierung an ITIL 4-Prinzipien:
-
--  Fokussiere dich auf den Wert  
--  Arbeite iterativ mit Feedback  
--  Optimiere und automatisiere  
--  Halte es einfach und praktisch
-
+  - Fokussiere dich auf den Wert  
+  - Arbeite iterativ mit Feedback  
+  -  Optimiere und automatisiere  
+  -  Halte es einfach und praktisch
+    
 ---
 
 ##  Visualisierungsideen
