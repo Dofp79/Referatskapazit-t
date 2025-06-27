@@ -14,7 +14,7 @@ Dieses Repository beinhaltet ein vollständig dokumentiertes Set von **Power BI 
 
 ---
 
-## 📐 Measures (DAX)
+##  Measures (DAX)
 
 Die wichtigsten Measures (aus `Measure.ms`):
 
@@ -51,8 +51,8 @@ Alle Measures sind ausführlich dokumentiert (Autor, Zweck, ITIL-Bezug, Datensch
 ✔️ Orientierung an ITIL 4-Prinzipien:
   - Fokussiere dich auf den Wert  
   - Arbeite iterativ mit Feedback  
-  -  Optimiere und automatisiere  
-  -  Halte es einfach und praktisch
+  - Optimiere und automatisiere  
+  - Halte es einfach und praktisch
     
 ---
 
