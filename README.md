@@ -65,6 +65,15 @@ Alle Measures sind ausführlich dokumentiert (Autor, Zweck, ITIL-Bezug, Datensch
 
 ---
 
+##  Verwandte Repositorien
+
+-  **ITIL-Practice-Governance-Bebauungsplan** (https://github.com/Dofp79/ITIL-Practice-Governance-Bebauungsplan)
+-  **Bubble Chart**: Story Points vs. Dauer
+-  **Gantt-Grafik** der Bearbeitungszeiträume
+-  **Teamvergleich** auf Kapazitätstage-Basis
+
+---
+
 ## 📫 Kontakt
 
 Fragen oder Feedback?  
