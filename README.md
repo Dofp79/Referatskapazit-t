@@ -67,10 +67,9 @@ Alle Measures sind ausführlich dokumentiert (Autor, Zweck, ITIL-Bezug, Datensch
 
 ##  Verwandte Repositorien
 
--  **ITIL-Practice-Governance-Bebauungsplan** (https://github.com/Dofp79/ITIL-Practice-Governance-Bebauungsplan)
--  **Bubble Chart**: Story Points vs. Dauer
--  **Gantt-Grafik** der Bearbeitungszeiträume
--  **Teamvergleich** auf Kapazitätstage-Basis
+-  **ITIL-Practice-Governance-Bebauungsplan**: (https://github.com/Dofp79/ITIL-Practice-Governance-Bebauungsplan)
+-  **ITSM_Power_BI_Vorlage_1.0.0**: (https://github.com/Dofp79/ITSM_Power_BI_Vorlage_1.0.0)
+-  **Power_BI_Roadmap**: (https://github.com/Dofp79/Power_BI_Roadmap)
 
 ---
 
