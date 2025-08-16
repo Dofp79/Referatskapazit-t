@@ -1,4 +1,4 @@
-# 🔷 Referatskapazität – Analysemodell für Sprint- & Teamkapazitäten in Power BI
+# Referatskapazität – Analysemodell für Sprint- & Teamkapazitäten in Power BI
 
 Willkommen im Projekt **Referatskapazität**!  
 Dieses Repository beinhaltet ein vollständig dokumentiertes Set von **Power BI Measures (DAX)** zur Analyse von Teamkapazitäten, Durchlaufzeiten und Auslastungen – basierend auf dem ITIL 4-Prinzip „Fokussiere dich auf den Wert“.
